@@ -1,5 +1,6 @@
 name: Using Expressions
 run-name: Using EXpressions | DEBUG - ${{inputs.debug && 'ON' || 'OFF'}}
+# DEBUG - ON || DEBUG - OFF
 on:
     workflow_dispatch:
         inputs:
